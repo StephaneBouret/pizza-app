@@ -148,3 +148,5 @@ CREATE TABLE `pizza_ingredient` (
 -- ------------------------------------------------------------
 INSERT INTO `size` (`label`, `diameterCm`) VALUES
 ('M', 28.0), ('L', 33.0), ('XL', 40.0);
+
+ALTER TABLE ingredient ADD COLUMN extraPriceCents INT UNSIGNED NULL COMMENT 'Extra price for addition on pizza';
